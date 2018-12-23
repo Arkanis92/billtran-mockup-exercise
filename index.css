@@ -92,7 +92,7 @@ table {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 3.2%;
+	width: 40px;
 	margin-bottom: 25px;
 }
 
@@ -102,7 +102,7 @@ table {
 	margin-bottom: 20px;
 	letter-spacing: 3px;
 	display: block;
-	width: 40%;
+	width: 500px;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Roboto', sans-serif;
@@ -115,7 +115,7 @@ table {
 	margin-right: auto;
 	margin-bottom: 105px;
 	display: block;
-	width: 68%;
+	width: 892px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
@@ -129,20 +129,19 @@ table {
 
 #bikelogo {
   z-index: 30;
-  margin-left: 29%;
   margin-top: 15%;
-  width: 102px;
+  margin-left: 30%;
+  width: 7.5%;
 }
 
 #companylogo {
   z-index: 20;
-  margin-top: 20%;
-  margin-left: 29%;
-  width: 102px;
+  margin-top: 19.5%;
+  margin-left: 30%;
+  width: 7.5%;
 }
 
 #bikeimage1 {
   z-index: 10;
   width: 67%;
-  height: 50%;
 }
