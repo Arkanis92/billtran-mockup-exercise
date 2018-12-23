@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 body {
 	line-height: 1;
 }
@@ -58,20 +61,21 @@ table {
 }
 
 .topbar ul {
-	width: 558px;
+	width: 541px;
 	margin:0 auto;
 }
 
 .topbar li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 17px;
+	letter-spacing: 2px;
   float: left;
 	position: relative;
 	top: 42px;
 	transform: translateY(-50%);
-	font-family: helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 11px;
 }
 
 .topbar li a {
@@ -81,4 +85,64 @@ table {
 
 .topbar li a img {
 	width: 77px;
+}
+
+.slogan img {
+	margin-top: 95px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 3.2%;
+	margin-bottom: 25px;
+}
+
+.slogan header {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	display: block;
+	width: 40%;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15.5px;
+  color: #000000b3;
+}
+
+.slogan p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 105px;
+	display: block;
+	width: 68%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 175%;
+	color: #808080db;
+}
+
+.vintage img {
+	position: absolute;
+}
+
+#bikelogo {
+  z-index: 30;
+  margin-left: 29%;
+  margin-top: 15%;
+  width: 102px;
+}
+
+#companylogo {
+  z-index: 20;
+  margin-top: 20%;
+  margin-left: 29%;
+  width: 102px;
+}
+
+#bikeimage1 {
+  z-index: 10;
+  width: 67%;
+  height: 50%;
 }
