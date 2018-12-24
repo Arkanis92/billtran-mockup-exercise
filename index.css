@@ -153,14 +153,13 @@ table {
 }
 
 .vintage header {
-  z-index: 50;
   padding-top: 7.5%;
-  margin-left: 58.5%;
+  margin-left: 68.5%;
   margin-right: auto;
   margin-bottom: 20px;
   letter-spacing: 3px;
   display: block;
-  width: 50%;
+  width: 30%;
   text-align: center;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
@@ -171,7 +170,7 @@ table {
 .vintage p {
   margin-left: 71%;
   margin-right: auto;
-  margin-bottom: 105px;
+  margin-bottom: 8%;
   display: block;
   width: 26%;
   text-align: justify;
@@ -185,4 +184,59 @@ table {
 	margin-top: 24.9%;
 	margin-left: 67%;
 	width: 34%;
+}
+
+.boriosa img {
+	position: absolute;
+}
+
+#sprocket {
+  margin-top: 14%;
+  margin-left: 15%;
+  width: 2.5%;
+}
+
+.boriosa header {
+	padding-top: 18.5%;
+	margin-left: -8.5%;
+	margin-right: auto;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	display: block;
+	width: 50%;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2vw;
+	color: #000000b3;
+}
+
+.boriosa p {
+	margin-left: 4%;
+  margin-right: auto;
+  display: block;
+  width: 26%;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  line-height: 185%;
+  color: #808080db
+}
+
+#seat2 {
+	margin-top: 35.15%;
+	width: 34%;
+}
+
+#bike3 {
+	margin-left: 34%;
+	margin-top: 10%;
+	width: 67%;
+}
+
+#vintagelogo {
+	margin-top: 24%;
+	margin-left: 62%;
+	z-index: 50;
+	width: 11%;
 }
