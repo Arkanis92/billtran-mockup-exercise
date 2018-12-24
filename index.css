@@ -145,3 +145,44 @@ table {
   z-index: 10;
   width: 67%;
 }
+
+#frameicon {
+  margin-top: 4%;
+  margin-left: 82%;
+  width: 2.5%;
+}
+
+.vintage header {
+  z-index: 50;
+  padding-top: 7.5%;
+  margin-left: 58.5%;
+  margin-right: auto;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  display: block;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2vw;
+  color: #000000b3;
+}
+
+.vintage p {
+  margin-left: 71%;
+  margin-right: auto;
+  margin-bottom: 105px;
+  display: block;
+  width: 26%;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  line-height: 185%;
+  color: #808080db;
+}
+
+#seat {
+	margin-top: 24.9%;
+	margin-left: 67%;
+	width: 34%;
+}
