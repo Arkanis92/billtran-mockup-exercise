@@ -123,15 +123,13 @@ table {
 	color: #808080db;
 }
 
-.vintage img {
-	position: absolute;
-}
 
 #bikelogo {
   z-index: 30;
   margin-top: 15%;
   margin-left: 30%;
   width: 7.5%;
+	position: absolute;
 }
 
 #companylogo {
@@ -139,17 +137,24 @@ table {
   margin-top: 19.5%;
   margin-left: 30%;
   width: 7.5%;
+	position: absolute;
 }
 
 #bikeimage1 {
   z-index: 10;
   width: 67%;
+	position: absolute;
 }
 
 #frameicon {
   margin-top: 4%;
   margin-left: 82%;
   width: 2.5%;
+	position: absolute;
+}
+
+.vintage {
+	margin-bottom: -0.2%;
 }
 
 .vintage header {
@@ -165,12 +170,14 @@ table {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2vw;
   color: #000000b3;
+	position: absolute;
 }
 
 .vintage p {
+	margin-top: 10%;
   margin-left: 71%;
   margin-right: auto;
-  margin-bottom: 8%;
+  margin-bottom: 18%;
   display: block;
   width: 26%;
   text-align: justify;
@@ -178,6 +185,7 @@ table {
   font-size: 1vw;
   line-height: 185%;
   color: #808080db;
+	position: absolute;
 }
 
 #seat {
@@ -186,18 +194,19 @@ table {
 	width: 34%;
 }
 
-.boriosa img {
-	position: absolute;
+.boriosa {
+	margin-bottom: -0.25%;
 }
 
 #sprocket {
-  margin-top: 14%;
+  margin-top: 4%;
   margin-left: 15%;
   width: 2.5%;
+	position: absolute;
 }
 
 .boriosa header {
-	padding-top: 18.5%;
+	padding-top: 8%;
 	margin-left: -8.5%;
 	margin-right: auto;
 	margin-bottom: 20px;
@@ -209,34 +218,102 @@ table {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.2vw;
 	color: #000000b3;
+	position: absolute;
 }
 
 .boriosa p {
+	margin-top: 10%;
 	margin-left: 4%;
   margin-right: auto;
+	margin-bottom: 18%;
   display: block;
   width: 26%;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
   font-size: 1vw;
   line-height: 185%;
-  color: #808080db
+  color: #808080db;
+	position: absolute;
 }
 
 #seat2 {
-	margin-top: 35.15%;
+	margin-top: 25.1%;
 	width: 34%;
+	position: absolute;
 }
 
 #bike3 {
 	margin-left: 34%;
-	margin-top: 10%;
 	width: 67%;
 }
 
 #vintagelogo {
-	margin-top: 24%;
+	margin-top: 14%;
 	margin-left: 62%;
 	z-index: 50;
 	width: 11%;
+	position: absolute;
+}
+
+#bikerail {
+	width: 34%;
+	position: absolute;
+}
+
+#bicyclelogo {
+	z-index: 10;
+	width: 13%;
+	margin-left: 10.5%;
+	margin-top: 17%;
+	position: absolute;
+}
+
+#steering {
+	margin-top: 4%;
+	margin-left: 49%;
+	width: 1.7%;
+	position: absolute;
+}
+
+.retro header {
+	margin-top: 8%;
+	margin-left: 36.5%;
+	margin-right: auto;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	display: block;
+	width: 27%;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2vw;
+	color: #000000b3;
+	position: absolute;
+}
+
+.retro p {
+	margin-top: 10%;
+	margin-left: 37%;
+	margin-right: auto;
+	margin-bottom: 10%;
+	display: block;
+	width: 26%;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+	line-height: 185%;
+	color: #808080db;
+	position: absolute;
+}
+
+#mavic {
+	margin-left: 34%;
+	margin-top: 25.5%;
+	width: 34%;
+}
+
+#bike2 {
+	position: absolute;
+	width: 34%;
+	margin-left: -1%;
 }
