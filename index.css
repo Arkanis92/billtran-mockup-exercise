@@ -432,7 +432,7 @@ table {
 	background-color: #2e2e31;
 }
 
-button {
+.button button {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	padding: 15px 60px;
@@ -446,6 +446,104 @@ button {
 	letter-spacing: 2px;
 }
 
-button: focus {
-	outline: 0;
+.email {
+	text-align: center;
+}
+
+.email img {
+	margin-top: 5%;
+  width: 6%;
+}
+
+.email p {
+	margin-bottom: 1%;
+	letter-spacing: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4vw;
+	font-style: italic;
+	line-height: 185%;
+	color: #808080db;
+}
+
+.email input {
+	height: 8%;
+  padding: 15px 15px;
+  width: 25%;
+  margin-bottom: 10%;
+	border-width: 1px;
+	border-color: #00000024;
+}
+
+.email input[type = "text"] {
+	font-family: 'Roboto', sans-serif;
+  color: #80808099;
+  font-style: italic;
+
+}
+
+.email button {
+	padding: 13px 38px;
+	background-color: #7dd0a9;
+	border: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: large;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.bottombar .centerimage {
+	text-align: center;
+}
+
+.bottombar .social {
+	width: 2%;
+	display: inline-block;
+	margin: 0px 15px;
+	postions: absolute;
+}
+
+.bottombar .newyork {
+	margin-left: 5%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9vw;
+	font-weight: bold;
+	color: #808080db;
+	position: absolute;
+}
+
+.bottombar .address {
+	margin-left: 5%;
+	margin-top: 1%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9vw;
+	font-style: italic;
+	color: #808080db;
+	position: absolute;
+}
+
+.bottombar .road {
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9vw;
+	font-style: italic;
+	color: #808080db;
+	position: absolute;
+}
+
+.bottombar .handcrafted {
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -1%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9vw;
+	font-style: italic;
+	color: #808080db;
+}
+
+.bottombar .yebo {
+	position: absolute;
+	margin-top: -1.5%;
+	margin-left: 87%;
+	width: 3%;
 }
